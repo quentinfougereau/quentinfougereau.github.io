@@ -34,8 +34,6 @@ github_username:  jekyll
 plugins:
   - jekyll-feed
 
-remote_theme: luxedo/jekyll-theme-potato-hacker
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -55,3 +53,30 @@ remote_theme: luxedo/jekyll-theme-potato-hacker
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Theme
+# theme: jekyll-theme-potato-hacker                 # Uncomment this
+# remote_theme: luxedo/jekyll-theme-potato-hacker   # Or this
+theme_repository: "https://github.com/luxedo/jekyll-theme-potato-hacker"
+theme_base: "dark"       # Theme palette (light | dark)
+theme_switch: on         # Show color switch (on | off)
+
+# Extra settings
+blog: on                 # Show blog tag and post list (on | off)
+avatar: on               # Show avatar (on | off)
+avatar_image: "assets/img/avatar.jpg"
+avatar_description: "My name is Popotato and I'm a HACKER."
+highlighter_theme: monokai  # Theme of the syntax_highlighter [base16 |
+                            # colorful | github | gruvbox | molokai |
+                            # monokai | pastie | thankful_eyes | tulip ]
+toolbar_priority:        # Order of the items in the toolbar (except for blog and home)
+  - dropdown2
+  - About
+  - dropdown1
+
+# Collections
+collections:
+  dropdown:
+    output: true
+  items:
+    output: true
