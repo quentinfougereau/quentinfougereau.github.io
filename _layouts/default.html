@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 {% seo %}
   </head>
 
@@ -27,18 +27,22 @@
         </section>
 		
 		<section id="social_networks">
-			<a href="{{ site.github.profile }}" class="">Github</span></a>
-		    <a href="{{ site.linkedin.profile }}" class="">Linkedin</span></a>
+		  
 		</section>
 		
-			    <nav class="">
-					<div class="">
-					    <a href="#">Home</a>
-						<a href="#">Parcours</a>
-						<a href="#">Projets</a>
-					</div>
-				</nav>
-			</div>
+		<div class="nav">
+		  <nav>
+		    <div class="nav-menu">
+			  <a href="#" class="nav-home"><i class="ri-home-4-fill ri-xl"></i></a>
+			  <a href="#">Parcours</a>
+			  <a href="#">Projets</a>
+			  <a href="#">Contact</a>
+		    </div>
+		    <div class="nav-networks">
+		      <a href="{{ site.github.profile }}" class="nav-github"><i class="ri-github-fill ri-xl"></i></a>
+		      <a href="{{ site.linkedin.profile }}" class="nav-linkedin"><i class="ri-linkedin-box-fill ri-xl"></i></a>
+		    </div>
+		  </nav>
 		</div>
 		
       </div>
