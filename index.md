@@ -21,6 +21,6 @@ Tous les projets sont disponibles sur ma page [github]({{ site.github.profile }}
 
 ### Note
 
-Je suis actuellement à la recherche d'un stage dans le domaine des audits de sécurité et du pentesting. 
+Je suis actuellement à la recherche d'un stage de 6 mois (d'avril 2021 à septembre 2021) dans le domaine des audits de sécurité et du pentesting. 
 
 Mes connaissances et mes compétences sont détaillées dans mon [parcours](#). Si mon profil vous intéresse n'hésitez pas à me contacter à cet [adresse mail](#) pour en discuter et pourquoi pas concrétiser une opportunité de travailler ensemble. 
