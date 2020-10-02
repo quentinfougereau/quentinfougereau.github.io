@@ -59,5 +59,11 @@
       </script>
     {% endif %}
 	<script src="{{ '/assets/js/nav.js' }}"></script>
+	<script src="{{ '/assets/js/konami.js' }}"></script>
+	<script>
+	  var k = new Konami(function() { 
+	    alert('Konami code!');
+	  });
+	</script>
   </body>
 </html>
