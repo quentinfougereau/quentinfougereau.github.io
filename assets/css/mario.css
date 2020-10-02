@@ -1,0 +1,49 @@
+/* Mario */
+.mario {
+    position: absolute;
+    width: 71px;
+    height: 72px;
+    background: url('../mario/mario_sprite.png') left center;
+    bottom: 0px;
+    left: 0px;
+	display: none;
+    -webkit-animation  : play .7s steps(4) infinite, run 7s both infinite linear;
+        -moz-animation : play .7s steps(4) infinite, run 7s both infinite linear;
+          -o-animation : play .7s steps(4) infinite, run 7s both infinite linear;
+             animation : play .4s steps(4) infinite, run 7s both infinite linear;
+}
+
+
+/* Animation for Mario walking */
+@-webkit-keyframes play {
+    100% {
+        background-position: -284px;
+    }
+}
+
+@keyframes play {
+    100% {
+        background-position: -284px;
+    }
+}
+
+/* Animation for Mario moving from left to right */
+@-webkit-keyframes run {
+    from {
+        left: -200px;
+    }
+
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes run {
+    from {
+        left: -200px;
+    }
+
+    to {
+        left: 100%;
+    }
+}
