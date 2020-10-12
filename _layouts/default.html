@@ -69,7 +69,6 @@
 	
 	<script>
 	  const theme = localStorage.getItem('theme');
-	  alert(theme);
 	  if (theme === "dark") {
 		document.getElementById("body").classList.remove("main-theme");
 	  }
@@ -89,10 +88,10 @@
         var body = document.getElementById("body");
         if (body.classList.contains("main-theme")) {
 	      body.classList.remove("main-theme");
-		  //window.localStorage.setItem('theme', 'dark');
+		  window.localStorage.setItem('theme', 'dark');
         } else {
 	      body.classList.add("main-theme");
-		  //window.localStorage.setItem('theme', 'light');
+		  window.localStorage.setItem('theme', 'light');
         }
 	  });
 	</script>
