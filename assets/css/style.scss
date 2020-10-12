@@ -3,6 +3,56 @@
 
 @import "{{ site.theme }}";
 
+/**** THEME WHITE / BLUE ***/
+.main-theme {
+  background: #151515 url("../images/dot-grid.png") 0 0;
+  color: #000;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+.main-theme header {
+  border-bottom: 2px dashed #0366d6;
+}
+
+.main-theme header h1::before {
+  color: #0366d6;
+}
+
+.main-theme header h1 {
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+.main-theme header h1 {
+  color: #000;
+}
+
+.main-theme header h2 {
+  color: #666;
+}
+
+.main-theme h1, .main-theme h2, .main-theme h3, .main-theme h4, .main-theme h5, .main-theme h6 {
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  color: #0366d6;
+}
+
+.main-theme a {
+  color: #0366d6;
+}
+
+.main-theme .nav-github-icon i, .main-theme .nav-linkedin-icon i {
+  color: #000;
+  text-shadow: none;
+}
+
+.main-theme hr {
+  border-bottom: 1px dashed #0366d6;
+  color: #0366d6;
+}
+/************************************/
+/************************************/
+/************************************/
+
+
 html {
   height: 100%
 }
