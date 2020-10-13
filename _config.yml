@@ -37,6 +37,14 @@ github:
 theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
+  
+# Links
+master_fsi: https://formations.univ-amu.fr/ME5SIN-PRSIN5AA.html
+licence_info: https://formations.univ-amu.fr/ME3SIN-PRSIN3AA.html 
+agency_21: https://www.21arr.com/
+mastere_esgi: https://www.esgi.fr/programmes/architecture-logiciels.html
+teamnet: https://teamnet.fr/
+bts_sio: https://www.ac-paris.fr/serail/jcms/s2_455888/fr/bts-sio
 
 # Exclude from processing.
 # The following items will not be processed, by default.

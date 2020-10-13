@@ -1,0 +1,72 @@
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #b5e853;
+  box-shadow: 4px 2px 3px 3px rgba(181, 232, 83, 0.1);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.main-theme .timeline::after {
+  background-color: #0366d6;
+}
+
+.timeline h2 {
+  color: #fff;
+}
+
+.main-theme .timeline h2 {
+  color: #000;
+}
+
+.timeline-content {
+  position: relative;
+  width: 50%
+}
+
+.timeline-content p {
+  padding-left: 20px;
+}
+
+/* The circles on the timeline */
+.timeline-content::after {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  right: -11px;
+  top: 7px;
+  background-color: #1c1c1c;
+  border: 4px solid #b5e853;
+  box-shadow: 4px 2px 3px 3px rgba(181, 232, 83, 0.1);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.main-theme .timeline-content::after {
+  background-color: #FFF;
+  border: 4px solid #000;
+}
+
+.left-content {	
+  left: 0;
+}
+
+.right-content {
+  padding-left: 20px;
+  left: 50%;
+}
+.right-content::after {
+  left: -11px;
+}
