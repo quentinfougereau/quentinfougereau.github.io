@@ -11,7 +11,7 @@ Je suis un étudiant, en 2ème année de Master à l'université d'Aix-Marseille
 
 Ce portfolio à pour but de présenter mon cursus professionnel et de montrer les différents projets que j'ai pu développés au cours de mes formations ou bien durant mon temps libre.
 
-Tous les projets sont disponibles sur ma page [github]({{ site.github.profile }}), sentez vous libre de les corriger, de les copier ou bien de les essayer.
+Tous les projets sont disponibles sur ma page [github]({{ site.github.profile }}), vous êtes libre de les copier, de les modifier ou de les partager.
 
 &nbsp;  
 

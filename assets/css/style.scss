@@ -5,13 +5,15 @@
 
 /**** THEME WHITE / BLUE ***/
 .main-theme {
-  background: #151515 url("../images/dot-grid.png") 0 0;
+  background: none;
+  background-color: #f2f2f2;
   color: #000;
   font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
 
 .main-theme header {
-  border-bottom: 2px dashed #0366d6;
+  border-bottom: none;
+  box-shadow: 2px 2px 2px 1px rgb(0, 0, 0);
 }
 
 .main-theme header h1::before {
@@ -47,6 +49,17 @@
 .main-theme hr {
   border-bottom: 1px dashed #0366d6;
   color: #0366d6;
+}
+
+.main-theme ul {
+  list-style: square;
+}
+
+.main-theme li:before {
+}
+
+.main-theme li {
+  list-style-image: none;
 }
 /************************************/
 /************************************/
@@ -97,6 +110,10 @@ a {
 .nav-menu-icon {
   display: none;
   text-decoration: none;
+}
+
+.contact-item span {
+  vertical-align: 10px;
 }
 
 @media screen and (max-width: 600px) {
