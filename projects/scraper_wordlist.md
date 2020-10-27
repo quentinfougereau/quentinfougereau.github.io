@@ -20,7 +20,7 @@ Cet outil scrap une page d'un site web et créé une wordlist à partir de son c
 * url: le site à scraper (ie. https://www.python.org/)
 * output: le fichier de sortie dans lequel sera écrit le contenu (sous forme de wordlist) (ie. my_wordlist.txt)
 
-* [-a|-w]: Les options :
+* Les options :
   * -a : ajouter au fichier
   * -w : écrire dans le fichier (cette option écrase le contenu du fichier)
 

@@ -75,14 +75,14 @@ body {
   width: 100%;
   overflow-x: hidden;
   position: relative;
-}	
+}
 
 .container {
   max-width: 1200px;
 }
 
 img {
-  width: 100%;
+  width: auto;
   height: auto;
 }
 
@@ -126,15 +126,15 @@ a {
     font-size: 13px;
     line-height: 1.4;
   }
-  
+
   header h1 {
     font-size: 25px;
   }
-  
+
   header h2 {
     font-size: 16px;
   }
-  
+
 }
 
 @media screen and (max-width: 600px) {
