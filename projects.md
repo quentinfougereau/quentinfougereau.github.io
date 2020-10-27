@@ -17,4 +17,4 @@ Ces projets ont été réalisés pendant mes études ou durant mon temps libre. 
 
 [Ollink (Node.js)](/projects/ollink) : Gestionnaire de lien avec organisation par catégories.
 
-[Scraper Wordlist (Python)](/projects/scrapper_wordlist) : Web scraper et créateur de wordlist à partir du contenu du site.
+[Scraper Wordlist (Python)](/projects/scraper_wordlist) : Web scraper et créateur de wordlist à partir du contenu du site.
