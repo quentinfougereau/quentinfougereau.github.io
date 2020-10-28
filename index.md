@@ -23,4 +23,4 @@ Tous les projets sont disponibles sur ma page [github]({{ site.github.profile }}
 
 Je suis actuellement à la recherche d'un stage de 6 mois (d'avril 2021 à septembre 2021) dans le domaine des audits de sécurité et du pentesting.
 
-Mes connaissances et mes compétences sont détaillées dans mon [parcours](/cursus), dans mon [CV]({{ '/assets/docs/CV_Quentin Fougereau.pdf' }}) et dans mes [projets](/projects). Si mon profil vous intéresse n'hésitez pas à me contacter à cet [adresse mail](/contact) pour en discuter et pourquoi pas concrétiser une opportunité de travailler ensemble.
+Mes connaissances et mes compétences sont détaillées dans mon [parcours](/cursus), dans mon [CV]({{ '/assets/docs/CV_Quentin_Fougereau.pdf' }}) et dans mes [projets](/projects). Si mon profil vous intéresse n'hésitez pas à me contacter à cet [adresse mail](/contact) pour en discuter et pourquoi pas concrétiser une opportunité de travailler ensemble.

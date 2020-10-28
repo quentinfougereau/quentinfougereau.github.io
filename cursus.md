@@ -5,7 +5,7 @@
 layout: timeline
 ---
 
-Vous pouvez télécharger mon CV <a href="{{ '/assets/docs/CV_Quentin Fougereau.pdf' }}" target="_blank">ici</a>.
+Vous pouvez télécharger mon CV <a href="{{ '/assets/docs/CV_Quentin_Fougereau.pdf' }}" target="_blank">ici</a>.
 
 &nbsp;
 
