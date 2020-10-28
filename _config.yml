@@ -28,7 +28,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  jekyll
 show_downloads: false
 linkedin: 
-  profile: https://www.linkedin.com/in/quentin-fougereau-4aaa131a1/
+  profile: https://www.linkedin.com/in/quentin-fougereau/
 github: 
   profile: https://github.com/quentinfougereau
 
